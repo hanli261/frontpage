@@ -1,0 +1,57 @@
+.top-nav{
+	clear: both;
+	width:100%;
+	color:blue;
+	margin-bottom:1px dashed blue;
+}
+div{
+	display:block;
+}
+.top-nav.bd{
+	width: 950px;
+	margin:0 auto;
+}
+.top-nav-info{
+	float: right;
+	margin-top:5px;
+}
+.top-nav-items{
+	float: left;
+	font-size:12px;
+	margin-top:3px;
+}
+.top-nav li.on,.top-nav li.on a:link,
+.top-nav li.on a:visited,
+.top-nav li.on a:hover,
+.top-nav li.on a:active{
+	color:green;
+	font-weight:800;
+}
+body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,
+blockquote{
+	margin:0;
+	padding: 0;
+}
+li{
+	display:list-item;
+	text-align: -webkit-match-parent;
+}
+ul{
+	list-style:none;
+}
+ul,menu,dir{
+	display:block;
+	list style type:disc;
+	-webkit-margin-before:1em;
+	-webkit-margin-after:1em;
+	-webkit-margin-start:0px;
+	-webkit-margin-end:0px;
+	-webkit-padding-start: 40px;
+}
+.top-nav-items{
+	font-size:12px;
+}
+body,td,th{
+	font: 12px Arial,Helvetica,sans-serif;
+	line-height: 162%;
+}
